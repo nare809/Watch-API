@@ -1,0 +1,48 @@
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+    sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: -0.015em;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+.start {
+  cursor: pointer;
+  margin-top: -64px;
+  outline: none;
+}
+.start:hover {
+  opacity: 0.7;
+}
+.message {
+  position: relative;
+  top: 50%;
+  margin-top: -7px;
+}
+video,
+#player {
+  outline: none;
+  pointer-events: none;
+}
+:focus {
+  outline: none;
+}
