@@ -1,3 +1,3 @@
 <?php
 
-$config_domain = "https://www.atozmovies.live";
+$config_domain = "https://watch-api.pages.dev";
